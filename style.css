@@ -3,8 +3,51 @@ html {
 	background-position: center;
 }
 
-h1 {
-	font-size: 50px;
-	color: white;
+
+#container {
+	display: table-cell;
+	height: 100vh;
+	width: 100vw;
+	text-align: center;
+	vertical-align: middle;
+	justify-content: center;
+	align-content: center;
 }
+
+h1 {
+	font-size: 100px;
+	color: white;
+	margin: auto;
+}
+
+#content{
+	margin: auto auto;
+}
+
+#morning_routine_btn {
+	width: 200px;
+	height: 100px;
+	background: linear-gradient(#00BFFF, #FFD700);
+	border: 0px;
+	color: white;
+	font-family: "Georgia";
+	font-size: 25px;
+	font-weight: 10px;
+	border-radius: 8px;
+	text-align: center;
+}
+
+#night_routine_btn {
+	width: 200px;
+	height: 100px;
+	background: linear-gradient(#191970, #FFA500) ;
+	border: 0px;
+	color: white;
+	font-family: "Georgia";
+	font-size: 25px;
+	font-weight: 10px;
+	border-radius: 8px;
+	text-align: center;
+}
+
 
