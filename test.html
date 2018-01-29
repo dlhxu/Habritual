@@ -7,8 +7,8 @@
 		<meta name="description" content="This is Habritual">
 
 		<link rel="Shortcut Icon" href="day_night.png">
-
 		<link rel="stylesheet" href="style.css">
+
 	</head>
 
 	<body>
@@ -18,13 +18,12 @@
 			<div id="content">
 				<h1>Habritual</h1>
 
-				<button onclick="myFunction()" type="button" id="morning_routine_btn">
+				<button type="button" id="morning_routine_btn">
 				Good Morning
 				</button>
-
-				<div id="morning_inputs">
-					This is where the input fields will go
-				</div>
+        <div id= "target">
+          Click where
+        </div>
 
 				<button type="button" id="night_routine_btn">
 				Good Night
@@ -32,16 +31,7 @@
 			</div>
 
 		</div>
+    <script type="text/javascript" src="script.js"></script>
 
-	<script>
-	function myFunction() {
-		var x = document.getElementById("morning_inputs");
-		if (x.style.visibility === 'hidden') {
-			x.style.visibility = 'visible';
-		} else {
-			x.style.visibility = 'hidden';
-		}
-	}
-	</script>
 	</body>
 </html>
