@@ -18,28 +18,42 @@
 			<div id="content">
 				<h1>Habritual</h1>
 
-				<button onclick="myFunction()" type="button" id="morning_routine_btn">
+				<div id="morning_inputs">
+					Good MORNINGG DO THIS
+				</div>
+
+				<div id="night_inputs">
+					Go TO BEDDDD 
+				</div>
+
+				<button onclick="myFunctionDay()" type="button" id="morning_routine_btn">
 				Good Morning
 				</button>
 
-				<div id="morning_inputs">
-					This is where the input fields will go
-				</div>
-
-				<button type="button" id="night_routine_btn">
+				<button onclick="myFunctionNight()" type="button" id="night_routine_btn">
 				Good Night
 				</button>
+
 			</div>
 
 		</div>
 
 	<script>
-	function myFunction() {
+	function myFunctionDay() {
 		var x = document.getElementById("morning_inputs");
 		if (x.style.visibility === 'hidden') {
 			x.style.visibility = 'visible';
 		} else {
 			x.style.visibility = 'hidden';
+		}
+	}
+
+	function myFunctionNight() {
+		var y = document.getElementById("night_inputs");
+		if (y.style.visibility === 'hidden') {
+			y.style.visibility = 'visible';
+		} else {
+			y.style.visibility = 'hidden';
 		}
 	}
 	</script>

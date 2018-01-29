@@ -26,7 +26,7 @@ h1 {
 
 #morning_routine_btn {
 	width: 200px;
-	height: 100px;
+	height: 40px;
 	background: linear-gradient(#00BFFF, #FFD700);
 	border: 0px;
 	color: white;
@@ -39,7 +39,7 @@ h1 {
 
 #night_routine_btn {
 	width: 200px;
-	height: 100px;
+	height: 40px;
 	background: linear-gradient(#191970, #FFA500) ;
 	border: 0px;
 	color: white;
@@ -51,9 +51,25 @@ h1 {
 }
 
 #morning_inputs {
-	width: 50px;
-	height: 50px;
+	width: 300px;
+	height: 200px;
 	background-color: red;
 	margin: auto;
+}
 
+#night_inputs {
+	width: 300px;
+	height: 200px;
+	background-color: blue;
+	margin: auto;
+}
+
+#buttons {
+	margin: auto;
+}
+
+#input_box {
+	width: 500px;
+	height: 400px;
+	margin: auto;
 }
