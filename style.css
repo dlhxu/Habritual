@@ -73,3 +73,13 @@ h1 {
 	height: 400px;
 	margin: auto;
 }
+
+#buttons {
+	margin: auto;
+}
+
+#task_box {
+	width: 500px;
+	height: 700px;
+
+}
